@@ -11,7 +11,8 @@ ENV PYTHONUNBUFFERED 1
 WORKDIR /code
 
 # Install dependencies
-RUN pip install pipenv
+# not `pip install pipenv` because of https://github.com/pypa/pipenv/issues/4273
+RUN pip install 'pipenv==2018.11.26'
 COPY Pipfile Pipfile.lock /code/
 RUN pipenv install --system
 
