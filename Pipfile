@@ -8,6 +8,7 @@ verify_ssl = true
 [packages]
 django = "==3.0.8"
 psycopg2-binary = "==2.8.5"
+django-elasticsearch-dsl = "==6.4.2"
 
 [requires]
 python_version = "3.7"
