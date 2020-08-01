@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "88dea7b54a20aa6ba02d71543e15038fe677a150a33d7f45c3c541bc81a176b1"
+            "sha256": "bb45bf5068ba59f550595b10caff8c19be951831dab19307563fa9f7ddfdc005"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -23,6 +23,13 @@
             ],
             "version": "==3.2.10"
         },
+        "certifi": {
+            "hashes": [
+                "sha256:5930595817496dd21bb8dc35dad090f1c2cd0adfaf21204bf6732ca5d8ee34d3",
+                "sha256:8fc0819f1f30ba15bdb34cceffb9ef04d99f420f68eb75d901e9560b8749fc41"
+            ],
+            "version": "==2020.6.20"
+        },
         "django": {
             "hashes": [
                 "sha256:31a5fbbea5fc71c99e288ec0b2f00302a0a92c44b13ede80b73a6a4d6d205582",
@@ -33,25 +40,25 @@
         },
         "django-elasticsearch-dsl": {
             "hashes": [
-                "sha256:ba043005eca1647d3f48b9e60d760c2b4daf886cbaa9312e658592b59ab57be2",
-                "sha256:e0aa448efd751909a40dfebad67d0206d37a15777ee455bbde63630f1eaa636a"
+                "sha256:5bbd49a9acb51c08fbbb7fba9beee7c9ce73b481af718cc57e4c8ac3d561888f",
+                "sha256:e733ccfd0e8b83ad6896d812a2c15ccbd563caf4ebf30fd31640538ad2de8e26"
             ],
             "index": "pypi",
-            "version": "==6.4.2"
+            "version": "==7.1.4"
         },
         "elasticsearch": {
             "hashes": [
-                "sha256:540d633afcc0a32972e4b489c4559c9a96e294850853238f7a18b1cbd267c2ed",
-                "sha256:a8062a00b61bc7babeea028530667583a68ecb1a9f59ab0b22ff7feaf70d3564"
+                "sha256:2ffbd746fc7d2db08e5ede29c822483705f29c4bf43b0875c238637d5d843d44",
+                "sha256:92b534931865a186906873f75ae0b91808ff5036b0f2b9269eb5f6dc09644b55"
             ],
-            "version": "==6.8.1"
+            "version": "==7.8.1"
         },
         "elasticsearch-dsl": {
             "hashes": [
-                "sha256:26416f4dd46ceca43d62ef74970d9de4bdd6f4b0f163316f0b432c9e61a08bec",
-                "sha256:f60aea7fd756ac1fbe7ce114bbf4949aefbf495dfe8896640e787c67344f12f6"
+                "sha256:1e345535164cb684de4b825e1d0daf81b75554b30d3905446584a9e4af0cc3e7",
+                "sha256:593c01822a03e3e84b87753c78edb833f4b2bfafcd52089841bd8f99b7e74ccd"
             ],
-            "version": "==6.4.0"
+            "version": "==7.2.1"
         },
         "psycopg2-binary": {
             "hashes": [
