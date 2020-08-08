@@ -19,6 +19,9 @@ class Post(models.Model):
     def __str__(self):
         return self.title
 
+    class Meta:
+        app_label = 'posts'
+
 
 class Reply(models.Model):
     content = models.TextField()
@@ -29,3 +32,7 @@ class Reply(models.Model):
 
     def __str__(self):
         return self.content
+
+    class Meta:
+        app_label = 'posts'
+        verbose_name_plural = 'Replies'

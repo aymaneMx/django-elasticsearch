@@ -1,6 +1,6 @@
 # Django Docker Boilerplate
 
-Simple dockerized django app 
+Simple project to test Elasticsearch with Django, build on docker.
 
 ## Build/run the project
 
