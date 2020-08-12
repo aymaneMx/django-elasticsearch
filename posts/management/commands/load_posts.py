@@ -58,7 +58,7 @@ def create_post(faker, users_ids, replies):
         user_id=random.choice(users_ids),
         content=faker.text(random.randint(100, 1000)),
         created_at=faker.date_time_between(start_date="-10d", end_date="now", tzinfo=tz.gettz('UTC')),
-        draft=False,
+        draft=random.choice([True, False]),
     )
     post.save()
 

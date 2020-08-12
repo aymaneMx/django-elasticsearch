@@ -1,4 +1,4 @@
-# Django Docker Boilerplate
+# Django, Docker and ElasticSearch
 
 Simple project to test Elasticsearch with Django, build on docker.
 

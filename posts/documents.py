@@ -13,7 +13,6 @@ class PostDocument(Document):
         'username': fields.TextField(),
         # 'photo': fields.FileField(),  use this type if you have a file/image
     })
-    slug = fields.TextField()
 
     class Index:
         # Name of the Elasticsearch index
@@ -32,6 +31,7 @@ class PostDocument(Document):
             'created_at',
             'likes',
             'draft',
+            'slug',
         ]
 
     def get_queryset(self):
