@@ -8,7 +8,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '5i@8k&$7i+%jygh$^^&yv8pv&xz+5l*u_^n!)&673q!8*e04^h'
+SECRET_KEY = os.getenv("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -116,6 +116,6 @@ STATIC_URL = '/static/'
 # Elasticsearch
 ELASTICSEARCH_DSL = {
     'default': {
-        'hosts': 'es:9200'  # our host using Docker
+        'hosts': os.getenv("ELASTICSEARCH_DSL_HOSTS", 'localhost:9200')
     },
 }
